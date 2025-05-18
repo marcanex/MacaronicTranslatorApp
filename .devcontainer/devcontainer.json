@@ -1,0 +1,10 @@
+{
+  "name": "Python 3.10 for Kivy/Buildozer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "settings": {},
+  "postCreateCommand": "pip install --upgrade pip && pip install buildozer cython",
+  "remoteUser": "vscode"
+}
